@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemailer": "^6.10.0"
+  },
+  "name": "authentication_system",
+  "version": "1.0.0",
+  "description": "Auth System ",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Manas Bhardwaj",
+  "license": "ISC"
+}
